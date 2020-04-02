@@ -1,15 +1,16 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg" />
+    <img alt="logo-bento" class="logo" src="@/assets/img/tacos.svg" />
 
     <a
       rel="noopener"
       class="documentation-link"
       target="_blank"
       href="https://bento-starter.netlify.com/"
-      >Documentation →</a
-    >
+    >Documentation →</a>
+
+    <p>PS: I don't like dumplings! Amazing!</p>
   </div>
 </template>
 
@@ -45,6 +46,7 @@ export default {
   align-items: center;
 
   .logo {
+    width: 15rem;
     margin-bottom: 3rem;
   }
 
