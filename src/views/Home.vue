@@ -8,9 +8,9 @@
       class="documentation-link"
       target="_blank"
       href="https://bento-starter.netlify.com/"
-    >Documentation →</a>
-
-    <p>PS: I don't like dumplings! Amazing!</p>
+    >
+      Documentation →
+    </a>
   </div>
 </template>
 
